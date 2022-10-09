@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.UI", "1.UI", "{5612F1EA-FEE0-43D6-B10D-73D03710147A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.BL", "2.BL", "{EE329500-515A-4D1D-85A0-61707758D263}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.DL", "3.DL", "{2E317225-6642-47A9-9DC9-D32981402F5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.CL", "4.CL", "{6073E0AA-4E0E-44E1-86C6-6B86BD8DFBD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MsAuditoria", "MsAuditoria\MsAuditoria.csproj", "{B64DE7D9-883D-48BE-A527-BA37D875BB96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datos.Auditoria", "Datos.Auditoria\Datos.Auditoria.csproj", "{D8286F36-619C-4652-8A33-820C8904B087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio.Auditoria", "Negocio.Auditoria\Negocio.Auditoria.csproj", "{1A57F8CD-E5E3-4E0E-964C-65C761F49D73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comun.Auditoria", "Comun.Auditoria\Comun.Auditoria.csproj", "{AC3BF9DF-0CDF-4014-B670-0284B39D0D61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B64DE7D9-883D-48BE-A527-BA37D875BB96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64DE7D9-883D-48BE-A527-BA37D875BB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64DE7D9-883D-48BE-A527-BA37D875BB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64DE7D9-883D-48BE-A527-BA37D875BB96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8286F36-619C-4652-8A33-820C8904B087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8286F36-619C-4652-8A33-820C8904B087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8286F36-619C-4652-8A33-820C8904B087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8286F36-619C-4652-8A33-820C8904B087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A57F8CD-E5E3-4E0E-964C-65C761F49D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A57F8CD-E5E3-4E0E-964C-65C761F49D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A57F8CD-E5E3-4E0E-964C-65C761F49D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A57F8CD-E5E3-4E0E-964C-65C761F49D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3BF9DF-0CDF-4014-B670-0284B39D0D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3BF9DF-0CDF-4014-B670-0284B39D0D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3BF9DF-0CDF-4014-B670-0284B39D0D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3BF9DF-0CDF-4014-B670-0284B39D0D61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B64DE7D9-883D-48BE-A527-BA37D875BB96} = {5612F1EA-FEE0-43D6-B10D-73D03710147A}
+		{D8286F36-619C-4652-8A33-820C8904B087} = {2E317225-6642-47A9-9DC9-D32981402F5B}
+		{1A57F8CD-E5E3-4E0E-964C-65C761F49D73} = {EE329500-515A-4D1D-85A0-61707758D263}
+		{AC3BF9DF-0CDF-4014-B670-0284B39D0D61} = {6073E0AA-4E0E-44E1-86C6-6B86BD8DFBD7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33EA834C-C945-4330-8FBC-B8AE0B28B441}
+	EndGlobalSection
+EndGlobal
