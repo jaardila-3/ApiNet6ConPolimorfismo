@@ -11,7 +11,7 @@ namespace Datos.Auditoria.Modelo.Orm
     /// <summary>
     /// tabla para las auditorias del sistema siathweb 4.0
     /// </summary>
-    [Table("SIATH_AUDITORIA_ERROR", Schema = "USR_SIATHWEB")]
+    [Table("SIATH_AUDITORIA_ERROR", Schema = "xxxxxx")]
     public class SiathAuditoriaError
     {
         #region Propiedades
