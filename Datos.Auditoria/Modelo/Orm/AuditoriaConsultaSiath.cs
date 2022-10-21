@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Datos.Auditoria.Modelo.Orm
 {
-    [Table("AUDITORIA_CONSULTAS_SIATH", Schema = "USR_REHU")]
+    [Table("AUDITORIA_CONSULTAS", Schema = "xxxxx")]
     public class AuditoriaConsultaSiath
     {
         #region Propiedades
